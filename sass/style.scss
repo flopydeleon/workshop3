@@ -1,0 +1,598 @@
+/* GLOBALES */ 
+.row{
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+header{
+background-image: url("../img/banner.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 720px;
+}
+
+/* FIN GLOBALES */ 
+
+
+/* VARIABLES */
+
+$celeste: #31aae2;
+
+$verde: #73c8b7;
+
+$rosa: #eb768c;
+
+$violeta: #c183d6;
+
+$negro: #313131;
+
+$gris: #969595;
+
+$grisclaro: #f9f9f9;
+
+/* FIN VARIABLES */
+
+/* -------------------------------------------------------------------- */ 
+
+/* EXTENDS */
+
+.titulos{
+    font-size: 30px;
+    color: $negro;
+}
+
+.sub-titulos{
+    font-size: 15px;
+    color: $negro;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.texto-simulado{
+    font-size: 13px;
+    color: $gris;
+    line-height: 24px;
+}
+
+.botones{
+    background: $celeste;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.boton{
+    font-size: 11px;  
+    background-color: inherit;
+    color: $gris;
+    border-radius: 30px;
+    border: 1px solid $gris;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+/* FIN EXTENDS */
+
+/* -------------------------------------------------------------------- */ 
+
+/* NAVBAR */
+
+.navbar-default{
+background-color: transparent;
+border: 0;
+border-radius: 0;
+
+    .navbar-brand{
+    float: left;
+    height: 50px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+    }
+
+    .navbar-nav li a{
+    color: #142031;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 20px 0px 0px 30px;
+    padding: 10px;
+    
+        &:hover{
+        border-bottom: 2px solid #142031;      
+        }
+    }
+    
+    .p{ 
+    border-bottom: 2px solid #142031;
+    }
+
+    .ion-ios-search-strong{
+    font-size: 18px;
+    }
+} 
+
+/* FIN NAVBAR */   
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION UNO */
+
+.sec-uno{
+background: white;
+padding: 90px 0px;
+    
+    .titulo{
+    @extend .titulos;
+    margin-bottom: 30px;
+    }
+
+    .sub-titulo{
+    @extend .texto-simulado;
+    }
+}
+
+/* FIN SECTION UNO */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION DOS */
+
+.sec-dos{
+background: #f9f9f9;
+padding: 90px 0px;
+    
+    .titulo{
+    @extend .titulos;
+    margin-bottom: 10px;
+    }
+
+    .sub-titulo{
+    @extend .texto-simulado;
+    }
+
+    .mar{
+    margin-top: 40px;
+    }
+
+    .pad-img{
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+
+    article{
+
+        .sub-titu{
+        @extend .sub-titulos;    
+        }
+
+        .texto-sub-titu{
+        @extend .texto-simulado;
+        padding: 0px 45px 0px 45px;   
+        }
+
+        .but{
+        @extend .botones;
+        font-size: 11px;
+        font-weight: 600;
+        padding: 8px 25px;    
+        }
+    }
+}
+
+/* FIN SECTION DOS */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION TRES */
+
+.sec-tres{
+    width: 100%;
+    background: #f9f9f9;
+}
+.contenedor{
+padding-top: 30px;
+    
+    .titulo{
+    @extend .titulos;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0;
+    }       
+    
+        .cuadro-medio{
+        width: 20%;
+        height: 350px;
+        background: $negro;
+        position: relative;
+        display: inline-block;
+         float: left;
+       
+            .redes-cuadro{            
+            margin: auto;        
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 15%;
+            width: 80%;
+            margin: -15% 0 0 -40%;
+            -ms-display:flex;
+            display: flex;
+            align-items:center;
+            justify-content:center;              
+            
+                .icon{
+                color: white;
+                margin: 0px 5px;
+                padding: 12px 17px;
+                border: 2px solid white;
+                box-sizing: border-box;  
+                }
+
+                .med{
+                background-color: $celeste;
+                border: 0; 
+                padding: 14px 19px;    
+                }
+            }
+                
+            .frase-cuadro{
+            bottom: 20px; 
+            position: absolute;                     
+            width: 100%;
+            background: white;
+            color: $negro;
+            text-align: center;
+            padding: 15px 0px;
+            opacity: 1;
+                      
+                h3{
+                font-size: 11px;
+                color: $negro;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin: 0;    
+                }
+
+                p{
+                font-size: 9px;
+                color: $gris;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-top: 10px;
+                margin-bottom: 0;    
+                }
+            }             
+        }
+
+        .cuadro{
+        width: 20%;
+        height: 350px;
+        background: $negro;
+        position: relative;
+        display: inline-block;
+        float: left;
+                       
+            .frase-cuadro{
+            bottom: 20px; 
+            position: absolute;                     
+            width: 100%;
+            background: white;
+            color: $negro;
+            text-align: center;
+            padding: 15px 0px;
+            opacity: 0.6;
+            transition: 1s;
+
+                &:hover{
+                opacity:1;
+                transition: 1s;
+                }
+            
+                h3{
+                font-size: 11px;
+                color: $negro;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin: 0;    
+                }
+
+                p{
+                font-size: 9px;
+                color: $gris;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-top: 10px;
+                margin-bottom: 0;    
+                }
+            }             
+        }
+
+        .cel{        
+        background: $celeste;           
+        }       
+    
+}
+
+/* SECTION TRES */
+
+/* -------------------------------------------------------------------- */ 
+
+/* FILA VERDE */
+
+.fila-verde{
+width: 100%;
+background-color: $verde;
+padding: 20px 0px;
+clear: both;
+    
+    .flex{
+    -ms-display:flex;
+    display: flex;
+    justify-content: space-between;
+     align-items:center;
+
+    
+    
+        h3{
+        font-size: 17px;
+        color: white;
+        font-weight: 200; 
+        margin: 0;   
+        }
+
+        button{
+        color: white;
+        background-color: inherit;
+        border: 1px solid white;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 8px 25px;   
+        }
+    }
+}
+
+/* FIN FILA VERDE */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION NEWS */
+
+.news{
+width: 100%;
+background-color: $grisclaro;
+padding: 50px 0px;    
+    
+    h1{
+    @extend .titulos;
+    margin: 0;
+    margin-bottom: 40px;    
+    }
+
+    article{
+
+        .negro{
+        background-color: $negro;
+        height: 230px;
+        position: relative;               
+            
+            img{
+            position:absolute;
+            }
+
+            .img-dos{
+             top: 52px;   
+            }       
+        }
+        
+        .blanco{
+        background-color: white;
+        padding: 20px;
+
+            h3{
+            @extend .sub-titulos;
+            margin: 0;    
+            }
+
+            .up{
+            @extend .texto-simulado;
+            text-transform: uppercase;    
+            }
+
+            p{
+            @extend .texto-simulado;   
+            } 
+
+            a{
+            text-decoration: none;    
+            }   
+        }
+    }
+}
+
+.mar{
+margin-top: 40px;    
+}
+/* FIN SECTION NEWS */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION ROSA */
+
+.titulo-rosa{
+width: 100%;
+background-color: white;
+padding: 30px;    
+
+    h1{
+    @extend .titulos;    
+    }
+}
+
+
+.rosa{
+width: 100%;
+background-color: $rosa;
+padding: 50px 0px;
+
+    article{
+    -ms-display:flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+        .texto-rosa{
+        margin-left: 15px;
+            
+
+            h3{
+            @extend .sub-titulos;
+            color: white;
+            margin:0;
+            font-weight: 600; 
+            margin-bottom: 20px;   
+            }
+
+            p{
+            @extend .texto-simulado;
+            color: white;    
+            }
+        }
+    }
+}
+
+.fila-abajo{
+margin-top: 80px;
+}
+/* FIN SECTION ROSA */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION THEME */
+
+.theme{
+width: 100%;
+background-color: $grisclaro;
+padding-top: 50px;
+    
+    article{
+
+        h1{
+        @extend .titulos;    
+        }
+
+        p{
+        @extend .texto-simulado;
+        margin-top: 40px;    
+        }
+    }    
+}
+
+/* FIN SECTION THEME */
+
+/* -------------------------------------------------------------------- */ 
+
+/* INICIO FOOTER */
+
+footer{
+width: 100%;
+padding: 50px 0px;
+background-color: $negro;
+color: $gris;
+    
+    .wid-1{
+    border-right: 1px solid $gris;
+        p{
+        @extend .texto-simulado;
+        margin-top: 20px;    
+        }
+
+        .but-wid-1{
+        @extend .boton;    
+        margin-top: 15px;    
+        }
+    }
+
+    .wid-2{
+      
+        h3{
+        @extend .sub-titulos;
+        color: white;
+        font-weight: 200;   
+        }
+
+        p{
+        @extend .texto-simulado;            
+        }
+
+        .but-wid-2{
+        @extend .boton;
+        background-color: $celeste;
+        border: 0;
+        color: white;
+        margin-top: 15px;     
+        }       
+    }
+
+    .wid-3{
+    border-left: 1px solid $gris; 
+        h3{
+        @extend .sub-titulos;
+        color: white;
+        font-weight: 200;   
+        }
+
+        p{
+        @extend .texto-simulado;            
+        }
+
+        .social-foo{
+        margin-top: 15px;    
+        }
+    }
+}
+
+/* FIN INICIO FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+
+.sec-tres{
+
+        .cuadro-medio{
+        width: 100%;
+        height: 350px;                                              
+        }
+
+        .cuadro{
+        width: 100%;
+        height: 350px;                
+        }                 
+}
+
+}
