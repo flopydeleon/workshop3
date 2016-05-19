@@ -35,17 +35,30 @@ height: 300px;
 /* FIN SECTION PORTFOLIO */
 
 .portfolio-cuadros{
-      background-color: #313131;
-    .filtros{
-       a{
-        color: white;
-       }
+    padding-top: 20px;
+    background-color: #313131;
+    margin-bottom: 150px;
 
-       ul{
-            li{
 
+        .filtros{
+            p{
+            color: $grisclaro;
             }
-       }
+            a{
+            color: $gris;
+            }
+            a:hover{
+            background-color: #313131;
+            color: $celeste;
+            }
+        }
     }
 
-}
+
+
+
+.fila-gris{
+width: 100%;
+background-color: #313131;
+padding: 20px 0px;
+    }

@@ -572,9 +572,21 @@ form {
 /*  SECTION PORTFOLIO  */
 /* FIN SECTION PORTFOLIO */
 .portfolio-cuadros {
-  background-color: #313131; }
+  padding-top: 20px;
+  background-color: #313131;
+  margin-bottom: 150px; }
+  .portfolio-cuadros .filtros p {
+    color: #f9f9f9; }
   .portfolio-cuadros .filtros a {
-    color: white; }
+    color: #969595; }
+  .portfolio-cuadros .filtros a:hover {
+    background-color: #313131;
+    color: #31aae2; }
+
+.fila-gris {
+  width: 100%;
+  background-color: #313131;
+  padding: 20px 0px; }
 
 /* -------------------------------------------------------------------- */
 /* NAVBAR */
