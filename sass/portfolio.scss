@@ -1,0 +1,51 @@
+
+
+/* HADER ABOUT */
+
+.head-about{
+width: 100%;
+background-color: $hueso;
+height: 300px;
+    
+    h1{
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;    
+    }
+
+    h3{
+    @extend .sub-titulos;
+    color: $gris;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    }
+}
+
+/* FIN HADER ABOUT */
+
+
+
+/*  SECTION PORTFOLIO  */
+
+
+
+/* FIN SECTION PORTFOLIO */
+
+.portfolio-cuadros{
+      background-color: #313131;
+    .filtros{
+       a{
+        color: white;
+       }
+
+       ul{
+            li{
+
+            }
+       }
+    }
+
+}

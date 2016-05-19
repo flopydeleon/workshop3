@@ -551,6 +551,31 @@ form {
       font-size: 35px; }
 
 /* FIN SECTION FEATURES */
+/* HADER ABOUT */
+.head-about {
+  width: 100%;
+  background-color: #f2efe4;
+  height: 300px; }
+  .head-about h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px; }
+  .head-about h3 {
+    color: #969595;
+    font-weight: 200;
+    margin: 0;
+    padding: 0; }
+
+/* FIN HADER ABOUT */
+/*  SECTION PORTFOLIO  */
+/* FIN SECTION PORTFOLIO */
+.portfolio-cuadros {
+  background-color: #313131; }
+  .portfolio-cuadros .filtros a {
+    color: white; }
+
 /* -------------------------------------------------------------------- */
 /* NAVBAR */
 .navbar-default {
