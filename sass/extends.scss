@@ -1,0 +1,38 @@
+/* EXTENDS */
+
+.titulos{
+    font-size: 30px;
+    color: $negro;
+}
+
+.sub-titulos{
+    font-size: 15px;
+    color: $negro;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.texto-simulado{
+    font-size: 13px;
+    color: $gris;
+    line-height: 24px;
+}
+
+.botones{
+    background: $celeste;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.boton{
+    font-size: 11px;  
+    background-color: inherit;
+    color: $gris;
+    border-radius: 30px;
+    border: 1px solid $gris;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+/* FIN EXTENDS */

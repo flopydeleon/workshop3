@@ -1,3 +1,37 @@
+/* VARIABLES */
+/* FIN VARIABLES */
+/* EXTENDS */
+.titulos, .sec-hello .titulo, .concept h1, .skills .progresbar h1, .skills .featured h1, .logos h1, .phone article h1, .titulo-rosa h1, .multipropose article h1, .sec-uno .titulo, .sec-dos .titulo, .contenedor .titulo, .news h1, .theme article h1 {
+  font-size: 30px;
+  color: #313131; }
+
+.sub-titulos, .head-con h3, .contact h3, .head-about h3, .head-services h3, .servicios article .contenedor h3, .rosa article .texto-rosa h3, .redondel .texto h3, .features article h3, .sec-dos article .sub-titu, .news article .blanco h3, footer .wid-2 h3, footer .wid-3 h3 {
+  font-size: 15px;
+  color: #313131;
+  line-height: 26px;
+  font-weight: 600; }
+
+.texto-simulado, .contact p, .sec-hello .sub-titulo, .concept p, .skills .featured .botones .blanco, .skills .featured form .but .blanco, form .skills .featured .but .blanco, .skills .featured .sec-dos article .but .blanco, .sec-dos article .skills .featured .but .blanco, .skills .featured .texto p, .servicios article .contenedor p, .phone article p, .phone article li, .rosa article .texto-rosa p, .redondel .texto p, .redondel .texto a, .multipropose article p, .multipropose article li, .features article p, .sec-uno .sub-titulo, .sec-dos .sub-titulo, .sec-dos article .texto-sub-titu, .news article .blanco .up, .news article .blanco p, .theme article p, footer .wid-1 p, footer .wid-2 p, footer .wid-3 p {
+  font-size: 13px;
+  color: #969595;
+  line-height: 24px; }
+
+.botones, form .but, .sec-dos article .but {
+  background: #31aae2;
+  border: 0;
+  color: white;
+  text-transform: uppercase; }
+
+.boton, footer .wid-1 .but-wid-1, footer .wid-2 .but-wid-2 {
+  font-size: 11px;
+  background-color: inherit;
+  color: #969595;
+  border-radius: 30px;
+  border: 1px solid #969595;
+  text-transform: uppercase;
+  padding: 5px 15px; }
+
+/* FIN EXTENDS */
 /* GLOBALES */
 .row {
   margin: 0; }
@@ -15,41 +49,508 @@ header {
   height: 720px; }
 
 /* FIN GLOBALES */
-/* VARIABLES */
-/* FIN VARIABLES */
+/* HADER CONTACT */
+.head-con {
+  width: 100%;
+  background-color: #f2efe4;
+  height: 300px; }
+  .head-con h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px; }
+  .head-con h3 {
+    color: #969595;
+    font-weight: 200;
+    margin: 0;
+    padding: 0; }
+
+/* FIN HADER CONTACT */
 /* -------------------------------------------------------------------- */
-/* EXTENDS */
-.titulos, .sec-uno .titulo, .sec-dos .titulo, .contenedor .titulo, .news h1, .titulo-rosa h1, .theme article h1 {
-  font-size: 30px;
-  color: #313131; }
+/* BLOQUE NEGRO */
+.bloque-negro {
+  width: 100%;
+  padding-top: 70px; }
+  .bloque-negro .bloque {
+    background-color: #313131;
+    height: 300px; }
 
-.sub-titulos, .sec-dos article .sub-titu, .news article .blanco h3, .rosa article .texto-rosa h3, footer .wid-2 h3, footer .wid-3 h3 {
-  font-size: 15px;
-  color: #313131;
-  line-height: 26px;
-  font-weight: 600; }
+/* FIN BLOQUE NEGRO */
+/* -------------------------------------------------------------------- */
+/* SECTION CONTACTOS */
+.contact {
+  width: 100%;
+  padding: 70px 0px 50px 0px; }
+  .contact .cont {
+    border: 1px solid #969595;
+    padding: 0; }
+  .contact .ico {
+    padding: 0;
+    margin: 0; }
+  .contact .fa-bullhorn {
+    padding: 60px 30px;
+    color: white;
+    background-color: #31aae2;
+    margin: 0; }
+  .contact h3 {
+    display: inline-block; }
+  .contact p {
+    margin: 0;
+    display: inline-block; }
 
-.texto-simulado, .sec-uno .sub-titulo, .sec-dos .sub-titulo, .sec-dos article .texto-sub-titu, .news article .blanco .up, .news article .blanco p, .rosa article .texto-rosa p, .theme article p, footer .wid-1 p, footer .wid-2 p, footer .wid-3 p {
-  font-size: 13px;
-  color: #969595;
-  line-height: 24px; }
+/* FIN SECTION CONTACTOS */
+/* -------------------------------------------------------------------- */
+/* SECTION HELLO */
+.sec-hello {
+  background: white;
+  padding: 30px 0px; }
+  .sec-hello .titulo {
+    margin-bottom: 30px; }
 
-.botones, .sec-dos article .but {
-  background: #31aae2;
+/* FIN SECTION HELLO */
+/* -------------------------------------------------------------------- */
+/* FORMULARIO */
+.form-group {
+  margin-bottom: 0px; }
+
+.form-control {
+  color: #555;
+  background-color: #f9f9f9;
   border: 0;
-  color: white;
-  text-transform: uppercase; }
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  -webkit-transition: 0;
+  -o-transition: 0;
+  transition: 0;
+  border: 0;
+  cursor: not-allowed;
+  border-radius: 0; }
 
-.boton, footer .wid-1 .but-wid-1, footer .wid-2 .but-wid-2 {
-  font-size: 11px;
-  background-color: inherit;
-  color: #969595;
-  border-radius: 30px;
-  border: 1px solid #969595;
-  text-transform: uppercase;
-  padding: 5px 15px; }
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background-color: #f9f9f9;
+  opacity: 1; }
 
-/* FIN EXTENDS */
+.datos {
+  margin-bottom: 20px;
+  background-color: #f9f9f9; }
+
+textarea {
+  height: 143px;
+  background-color: #f9f9f9;
+  border: 0;
+  width: 100%;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143; }
+
+form {
+  padding-bottom: 50px; }
+  form .but {
+    border-radius: 0;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 25px;
+    margin: 0; }
+
+/* FIN FORMULARIO */
+/* HADER ABOUT */
+.head-about {
+  width: 100%;
+  background-color: #f2efe4;
+  height: 300px; }
+  .head-about h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px; }
+  .head-about h3 {
+    color: #969595;
+    font-weight: 200;
+    margin: 0;
+    padding: 0; }
+
+/* FIN HADER ABOUT */
+/* ----------------------------------------------------------------------------------------------*/
+/* SECTION CONCEPT */
+.concept {
+  width: 100%;
+  padding: 70px 0px;
+  background-color: white; }
+  .concept p {
+    padding: 0; }
+  .concept .flex {
+    margin-top: 40px;
+    -ms-display: flex;
+    display: flex;
+    justify-content: space-between; }
+    .concept .flex .caja-negra {
+      background-color: #313131;
+      width: 160px;
+      height: 200px; }
+    .concept .flex .caja-celeste {
+      background-color: #31aae2;
+      width: 160px;
+      height: 200px;
+      -ms-display: flex;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .concept .flex .caja-celeste .ion-search {
+        color: white;
+        font-size: 24px; }
+
+/* SECTION CONCEPT */
+/* ----------------------------------------------------------------------------------------------*/
+/* SECTION SKILLS */
+.skills {
+  width: 100%;
+  padding: 30px 0px 70px 0px;
+  background-color: white; }
+  .skills .progresbar h1 {
+    margin-bottom: 40px; }
+  .skills .progresbar .progress {
+    height: 35px;
+    /**/
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f1f1f1; }
+  .skills .progresbar .progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #31aae2;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+    border-radius: 20px; }
+    .skills .progresbar .progress-bar p {
+      text-align: left;
+      line-height: 32px;
+      padding-left: 20px;
+      font-size: 13px;
+      display: inline-block;
+      margin: 0; }
+    .skills .progresbar .progress-bar .cir {
+      background-color: white;
+      display: inline-block;
+      padding: 2px;
+      width: 28px;
+      height: 28px;
+      font-size: 10px;
+      border-radius: 30px;
+      -ms-display: flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2px;
+      float: right;
+      margin-right: 2px; }
+    .skills .progresbar .progress-bar .porcentaje {
+      font-size: 8px;
+      color: #313131; }
+  .skills .featured h1 {
+    margin-bottom: 40px; }
+  .skills .featured .botones, .skills .featured form .but, form .skills .featured .but, .skills .featured .sec-dos article .but, .sec-dos article .skills .featured .but {
+    background-color: white; }
+    .skills .featured .botones .blanco, .skills .featured form .but .blanco, form .skills .featured .but .blanco, .skills .featured .sec-dos article .but .blanco, .sec-dos article .skills .featured .but .blanco {
+      padding: 5px 10px;
+      background: white;
+      border: 1px solid #969595;
+      color: #969595;
+      border-radius: 5px;
+      margin-right: 10px; }
+    .skills .featured .botones .celeste, .skills .featured form .but .celeste, form .skills .featured .but .celeste, .skills .featured .sec-dos article .but .celeste, .sec-dos article .skills .featured .but .celeste {
+      background-color: #31aae2;
+      color: white;
+      border: 1px solid #31aae2; }
+  .skills .featured .texto {
+    margin-top: 20px; }
+    .skills .featured .texto .cuadrado {
+      background-color: #313131;
+      height: 185px; }
+    .skills .featured .texto p {
+      margin-bottom: 0; }
+
+/* FIN SECTION SKILLS */
+/* ----------------------------------------------------------------------------------------------*/
+/* TESTIMONIOS */
+.carousel-sec {
+  padding-top: 50px;
+  padding-bottom: 70px; }
+
+.quote {
+  color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px; }
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px; }
+
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -ms-transition-property: opacity;
+  transition-property: opacity; }
+
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  -ms-transition-property: opacity;
+  transition-property: opacity; }
+
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px; }
+
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none; }
+
+#fade-quote-carousel blockquote {
+  text-align: center;
+  border: none; }
+
+#fade-quote-carousel .profile-circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 100px; }
+
+/* FIN TESTIMONIOS */
+/* ----------------------------------------------------------------------------------------------*/
+/* SECTION LOGOS */
+.logos {
+  width: 100%;
+  padding: 0px 0px 100px 0px;
+  background-color: white; }
+  .logos .fila-logos {
+    margin-top: 70px;
+    -ms-display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+/* FIN SECTION LOGOS */
+/* ----------------------------------------------------------------------------------------------*/
+/* FILA AZUL */
+.fila-azul {
+  width: 100%;
+  background-color: #31aae2;
+  padding: 20px 0px;
+  clear: both; }
+  .fila-azul .flex {
+    -ms-display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .fila-azul .flex h3 {
+      font-size: 17px;
+      color: white;
+      font-weight: 200;
+      margin: 0; }
+    .fila-azul .flex button {
+      color: white;
+      background-color: inherit;
+      border: 1px solid white;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 25px; }
+
+/* FIN FILA AZUL */
+/* HADER SERVICES */
+.head-services {
+  width: 100%;
+  background-color: #f2efe4;
+  height: 300px; }
+  .head-services h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px; }
+  .head-services h3 {
+    color: #969595;
+    font-weight: 200;
+    margin: 0;
+    padding: 0; }
+
+/* FIN HADER SERVICES */
+/* ----------------------------------------------------------------------------------------------*/
+/* SECTION CONCEPT */
+.servicios {
+  background-color: white;
+  padding: 70px 0px;
+  width: 100%; }
+  .servicios article .contenedor {
+    padding: 30px 30px;
+    border: 1px solid #f1f1f1; }
+    .servicios article .contenedor .icono {
+      padding: 20px 25px;
+      background-color: #31aae2;
+      color: white;
+      font-size: 20px;
+      border-radius: 8px; }
+    .servicios article .contenedor .ion-ios-lightbulb-outline {
+      padding: 20px 25px;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      border-radius: 8px; }
+    .servicios article .contenedor h3 {
+      margin-top: 40px; }
+    .servicios article .contenedor p {
+      text-align: center;
+      margin-top: 30px; }
+
+/* SECTION CONCEPT */
+/* ----------------------------------------------------------------------------------------------*/
+/* SECTION PHONE */
+.phone {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding-top: 50px; }
+  .phone article p {
+    margin-top: 40px;
+    margin-bottom: 30px; }
+  .phone article ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .phone article li {
+    margin-bottom: 13px; }
+  .phone article .glyphicon-star {
+    color: #31aae2;
+    margin-right: 10px; }
+  .phone article button {
+    background-color: #31aae2;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 13px;
+    margin-top: 30px; }
+
+/* FIN SECTION PHONE */
+/* -------------------------------------------------------------------- */
+/* SECTION ROSA */
+.titulo-rosa {
+  width: 100%;
+  background-color: white;
+  padding: 30px; }
+
+.rosa {
+  width: 100%;
+  background-color: #eb768c;
+  padding: 50px 0px; }
+  .rosa article {
+    -ms-display: flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    .rosa article .texto-rosa {
+      margin-left: 15px; }
+      .rosa article .texto-rosa h3 {
+        color: white;
+        margin: 0;
+        font-weight: 600;
+        margin-bottom: 20px; }
+      .rosa article .texto-rosa p {
+        color: white; }
+
+.fila-abajo {
+  margin-top: 80px; }
+
+/* FIN SECTION ROSA */
+/* -------------------------------------------------------------------- */
+/* SECTION REDONDEL */
+.redondel {
+  width: 100%;
+  background-color: white;
+  padding: 70px 0px; }
+  .redondel .texto a {
+    color: #31aae2;
+    text-decoration: none; }
+  .redondel .circulo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #d1d1d1; }
+
+/* FIN SECTION REDONDEL */
+/* -------------------------------------------------------------------- */
+/* SECTION MULTIPROPOSE */
+.multipropose {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding-top: 50px; }
+  .multipropose article h1 {
+    margin: 0; }
+  .multipropose article p {
+    margin-top: 40px;
+    margin-bottom: 30px; }
+  .multipropose article ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .multipropose article li {
+    margin-bottom: 13px; }
+  .multipropose article .glyphicon-star {
+    color: #31aae2;
+    margin-right: 10px; }
+  .multipropose article button {
+    background-color: #31aae2;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 13px;
+    margin-top: 30px; }
+
+/* SECTION MULTIPROPOSE */
+/* -------------------------------------------------------------------- */
+/* SECTION FEATURES */
+.features {
+  background-color: white;
+  padding: 70px 0px;
+  width: 100%; }
+  .features article {
+    padding: 0px 20px; }
+    .features article .redondel-b, .features article .redondel-n {
+      background-color: #f1f1f1;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      text-align: center;
+      -ms-display: flex;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .features article .redondel-n {
+      background-color: #313131; }
+    .features article .icono-b {
+      color: white;
+      font-size: 35px; }
+
+/* FIN SECTION FEATURES */
 /* -------------------------------------------------------------------- */
 /* NAVBAR */
 .navbar-default {

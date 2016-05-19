@@ -1,83 +1,9 @@
-/* GLOBALES */ 
-.row{
-    margin: 0;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-header{
-background-image: url("../img/banner.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-width: 100%;
-height: 720px;
-}
-
-/* FIN GLOBALES */ 
-
-
-/* VARIABLES */
-
-$celeste: #31aae2;
-
-$verde: #73c8b7;
-
-$rosa: #eb768c;
-
-$violeta: #c183d6;
-
-$negro: #313131;
-
-$gris: #969595;
-
-$grisclaro: #f9f9f9;
-
-/* FIN VARIABLES */
-
-/* -------------------------------------------------------------------- */ 
-
-/* EXTENDS */
-
-.titulos{
-    font-size: 30px;
-    color: $negro;
-}
-
-.sub-titulos{
-    font-size: 15px;
-    color: $negro;
-    line-height: 26px;
-    font-weight: 600;
-}
-
-.texto-simulado{
-    font-size: 13px;
-    color: $gris;
-    line-height: 24px;
-}
-
-.botones{
-    background: $celeste;
-    border: 0;
-    color: white;
-    text-transform: uppercase;
-}
-
-.boton{
-    font-size: 11px;  
-    background-color: inherit;
-    color: $gris;
-    border-radius: 30px;
-    border: 1px solid $gris;
-    text-transform: uppercase;
-    padding: 5px 15px;
-}
-
-/* FIN EXTENDS */
+@import "variables";
+@import "extends";
+@import "globales";
+@import "contacto";
+@import "about";
+@import "services";
 
 /* -------------------------------------------------------------------- */ 
 
@@ -338,8 +264,6 @@ clear: both;
     display: flex;
     justify-content: space-between;
      align-items:center;
-
-    
     
         h3{
         font-size: 17px;
@@ -452,7 +376,6 @@ padding: 50px 0px;
         .texto-rosa{
         margin-left: 15px;
             
-
             h3{
             @extend .sub-titulos;
             color: white;
@@ -561,6 +484,14 @@ color: $gris;
 }
 
 /* FIN INICIO FOOTER */
+
+
+
+
+
+
+
+
 
 
 

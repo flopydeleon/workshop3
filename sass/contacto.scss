@@ -1,0 +1,166 @@
+
+
+/* HADER CONTACT */
+
+.head-con{
+width: 100%;
+background-color: $hueso;
+height: 300px;
+    
+    h1{
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;    
+    }
+
+    h3{
+    @extend .sub-titulos;
+    color: $gris;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+
+    }
+}
+
+/* FIN HADER CONTACT */
+
+/* -------------------------------------------------------------------- */ 
+
+/* BLOQUE NEGRO */
+
+.bloque-negro{
+width: 100%;
+padding-top: 70px;
+
+    .bloque{
+    background-color: $negro;
+    height: 300px;    
+    }   
+}
+
+/* FIN BLOQUE NEGRO */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION CONTACTOS */
+
+.contact{
+width: 100%;
+padding: 70px 0px 50px 0px;
+    
+    .cont{
+    border: 1px solid $gris;
+    padding: 0;      
+    }
+    
+    .ico{
+    padding:0;
+    margin: 0;    
+    }
+
+    .fa-bullhorn{
+        padding: 60px 30px;
+        color: white;
+        background-color: $celeste;
+        margin: 0;
+    } 
+
+    h3{
+    @extend .sub-titulos;
+    display: inline-block;   
+    }
+
+    p{
+    @extend .texto-simulado;
+    margin: 0;
+    display: inline-block;   
+    }
+       
+}
+
+/* FIN SECTION CONTACTOS */
+
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION HELLO */
+
+.sec-hello{
+background: white;
+padding: 30px 0px;
+    
+    .titulo{
+    @extend .titulos;
+    margin-bottom: 30px;
+    }
+
+    .sub-titulo{
+    @extend .texto-simulado;
+    }
+}
+
+/* FIN SECTION HELLO */
+
+/* -------------------------------------------------------------------- */
+
+/* FORMULARIO */
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.form-control {
+    color: #555;
+    background-color: $grisclaro;
+    border: 0;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    -webkit-transition: 0;
+    -o-transition: 0;
+    transition: 0;
+    border:0;
+    cursor: not-allowed;
+    border-radius: 0;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: $grisclaro;
+    opacity: 1;
+}
+
+.datos{
+    margin-bottom:20px;
+    background-color: $grisclaro;
+}
+
+textarea{
+    height: 143px;
+    background-color: $grisclaro;
+    border:0;
+    width: 100%;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+form{
+padding-bottom: 50px;
+
+    .but{
+    @extend .botones;
+    border-radius: 0;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 25px;
+    margin: 0;  
+    }
+}
+
+/* FIN FORMULARIO */

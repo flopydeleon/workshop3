@@ -1,0 +1,309 @@
+
+
+/* HADER SERVICES */
+
+.head-services{
+width: 100%;
+background-color: $hueso;
+height: 300px;
+    
+    h1{
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;    
+    }
+
+    h3{
+    @extend .sub-titulos;
+    color: $gris;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    }
+}
+
+/* FIN HADER SERVICES */
+
+/* ----------------------------------------------------------------------------------------------*/
+
+/* SECTION CONCEPT */
+
+.servicios{
+background-color: white;
+padding: 70px 0px;
+width:100%;
+    
+    article{
+              
+        .contenedor{
+        padding: 30px 30px;
+        border: 1px solid #f1f1f1;
+            
+            
+            .icono{
+            padding: 20px 25px;
+            background-color: $celeste;
+            color: white;
+            font-size: 20px;
+            border-radius: 8px;    
+            }
+            .ion-ios-lightbulb-outline{
+            padding: 20px 25px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            border-radius: 8px; 
+
+            }
+            h3{
+            @extend .sub-titulos;
+            margin-top: 40px;    
+            }
+
+            p{
+            @extend .texto-simulado;
+            text-align: center;
+            margin-top: 30px;  
+            }
+        }
+    }    
+}
+
+/* SECTION CONCEPT */ 
+
+/* ----------------------------------------------------------------------------------------------*/
+
+/* SECTION PHONE */
+
+.phone{
+width: 100%;
+background-color: $grisclaro;
+padding-top: 50px;
+    
+    article{
+
+        h1{
+        @extend .titulos;    
+        }
+
+        p{
+        @extend .texto-simulado;
+        margin-top: 40px;
+        margin-bottom: 30px;    
+        }
+
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;    
+        }
+
+        li{
+        @extend .texto-simulado;
+        margin-bottom: 13px;    
+        }
+
+        .glyphicon-star{
+        color: $celeste;
+        margin-right: 10px;    
+        }
+
+        button{
+        background-color: $celeste;
+        color: white;
+        border: 0;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-top: 30px;    
+        }
+    }    
+}
+
+/* FIN SECTION PHONE */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION ROSA */
+
+.titulo-rosa{
+width: 100%;
+background-color: white;
+padding: 30px;    
+
+    h1{
+    @extend .titulos;    
+    }
+}
+
+
+.rosa{
+width: 100%;
+background-color: $rosa;
+padding: 50px 0px;
+
+    article{
+    -ms-display:flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+        .texto-rosa{
+        margin-left: 15px;
+            
+            h3{
+            @extend .sub-titulos;
+            color: white;
+            margin:0;
+            font-weight: 600; 
+            margin-bottom: 20px;   
+            }
+
+            p{
+            @extend .texto-simulado;
+            color: white;    
+            }
+        }
+    }
+}
+
+.fila-abajo{
+margin-top: 80px;
+}
+/* FIN SECTION ROSA */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION REDONDEL */
+
+.redondel{
+width: 100%;
+background-color: white;
+padding: 70px 0px;
+
+    .texto{
+
+        h3{
+        @extend .sub-titulos;    
+        }
+
+        p{
+        @extend .texto-simulado;    
+        }
+
+        a{
+        @extend .texto-simulado;
+        color: $celeste;
+        text-decoration: none;    
+        }      
+    } 
+
+    .circulo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #d1d1d1;    
+    }    
+}
+
+/* FIN SECTION REDONDEL */
+
+/* -------------------------------------------------------------------- */ 
+
+/* SECTION MULTIPROPOSE */
+
+.multipropose{
+width: 100%;
+background-color: $grisclaro;
+padding-top: 50px;
+    
+    article{
+
+        h1{
+        @extend .titulos;
+        margin: 0;    
+        }
+
+        p{
+        @extend .texto-simulado;
+        margin-top: 40px;
+        margin-bottom: 30px;    
+        }
+
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;    
+        }
+
+        li{
+        @extend .texto-simulado;
+        margin-bottom: 13px;    
+        }
+
+        .glyphicon-star{
+        color: $celeste;
+        margin-right: 10px;    
+        }
+
+        button{
+        background-color: $celeste;
+        color: white;
+        border: 0;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-top: 30px;    
+        }
+    }    
+}
+
+/* SECTION MULTIPROPOSE */
+
+/* -------------------------------------------------------------------- */
+
+/* SECTION FEATURES */
+
+.features{
+background-color: white;
+padding: 70px 0px;
+width:100%;
+       
+    article{
+    padding: 0px 20px;
+        
+        .redondel-b{
+        background-color: #f1f1f1;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        -ms-display:flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        }
+
+        .redondel-n{
+        @extend .redondel-b;
+        background-color: $negro;   
+        }
+
+        .icono-b{
+        color: white;
+        font-size: 35px;
+        }
+
+        h3{
+        @extend .sub-titulos;    
+        }
+
+        p{
+        @extend .texto-simulado;    
+        }
+    }  
+}
+
+/* FIN SECTION FEATURES */
